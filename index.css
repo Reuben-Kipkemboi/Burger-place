@@ -1,7 +1,7 @@
 body{
-    font-family: poppins;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
-    padding:0;
+    padding:50px;
 }
 ul{
     list-style: none; 
@@ -33,9 +33,6 @@ li a{
 .rain{
     font-weight: bold;
 }
-.burgers{
-    background-color: #E1EBE6;
-}
 .btn{
     padding: 15px 35px;
     background-color: orange;
@@ -43,4 +40,41 @@ li a{
     font-weight: 200;
     border: none;
     border-radius: 20px 20px 0;
+    float: left;
+}
+.services{
+    background-color: #E1EBE6;
+    box-sizing: border-box;
+    padding: 50px;
+    height: 500px;
+}
+.quality{
+    box-shadow: 0 4px 12px 0;
+    float: left;
+    border-radius: 10px;
+    padding: 30px;
+    width: 380px;
+    height: 280px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+.delivery{
+    box-shadow: 0 4px 12px 0;
+    text-align: center;
+    border-radius: 10px;
+    float: left;
+    padding: 40px;
+    width: 550px;
+    height: 300px;
+    margin-left: 60px;
+}
+.meals{
+    box-shadow: 0 4px 12px 0;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    float: right;
+    width: 380px;
+    height: 280px;
 }
