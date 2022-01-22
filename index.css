@@ -13,7 +13,9 @@ body{
     background-color: #E1EBE6;
 }
 button{
+    padding: 15px 35px;
     background-color: orange;
     color: white;
-    border-radius: 50px;
+    border: none;
+    border-radius: 20px 20px 0;
 }
