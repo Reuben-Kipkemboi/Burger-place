@@ -1,15 +1,31 @@
-body{
+*{
+    font-family: 'poppins', sans-serif;
     margin: 0;
-    padding:50px;
+    padding: 0;
 }
-ul{
-    list-style: none; 
-    float: right;
-    padding: 10px;
-
+.bg-background{
+position: absolute;
+right: 0;
+width: 50%;
+height: 100vh;
+clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
+background-color: #F6B400;right: 0;
 }
-li{
-    float: right;
+.logo{
+    height: 100;
+}
+.burger-logo{
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px;
+}
+.links ul{
+    justify-content: space-around;
+    display: flex;
+    list-style: none;
 }
 li a{
     display: inline-flex;
@@ -18,31 +34,36 @@ li a{
     font-size: 20px;
     padding: 15px 40px;
     text-decoration: none;
-}li a:hover{
+.links li{
+    float: right;
+    list-style: none;
+    padding: 16px;
+    font-size: 21px;
+    font-weight: bold;
+}
+li a:hover{
     cursor: hand;
 }
-
-.burger{
-    background-color:#F6B400;
+.burger-img{
     padding: 20px;
 }
-.order img{
-    display: block;
-    margin-left: 650px;
-    margin-right: 100px;
-    margin-top: 50px;
-}
 .rain{
+    float: left;
     font-weight: 650;
     font-size: 40px;
+    margin-right: 6%;
+    margin-right: 7%;
+    padding-top: 200px;
 }
-#cook{
+.slogan{
+    margin-top: 50px;
     font-style: calc();
     font-size: 20px;
     font-weight: 549;
     color: gray;
 }
 .btn{
+    margin-top: 900px;
     padding: 15px 35px;
     background-color: orange;
     color: white;
