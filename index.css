@@ -1,5 +1,4 @@
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     margin: 0;
     padding:50px;
 }
@@ -13,11 +12,11 @@ li{
     float: right;
 }
 li a{
-    display: block;
+    display: inline-flex;
     color: black;
-    font-weight: 550;
-    text-align: center ;
-    padding: 15px 15px;
+    font-weight: 700;
+    font-size: 20px;
+    padding: 15px 40px;
     text-decoration: none;
 }li a:hover{
     cursor: hand;
@@ -28,10 +27,20 @@ li a{
     padding: 20px;
 }
 .order img{
-    padding: 50px;
+    display: block;
+    margin-left: 650px;
+    margin-right: 100px;
+    margin-top: 50px;
 }
 .rain{
-    font-weight: bold;
+    font-weight: 650;
+    font-size: 40px;
+}
+#cook{
+    font-style: calc();
+    font-size: 20px;
+    font-weight: 549;
+    color: gray;
 }
 .btn{
     padding: 15px 35px;
@@ -40,7 +49,8 @@ li a{
     font-weight: 200;
     border: none;
     border-radius: 20px 20px 0;
-    float: left;
+    float: left; 
+    position:
 }
 .services{
     background-color: #E1EBE6;
@@ -59,6 +69,15 @@ li a{
     text-align: center;
 
 }
+.quality h2{
+    color: brown;
+    font-weight: 549;
+    font-size: 1.5em;
+}
+.quality p{
+    color: gray;
+    font-size: 17px;
+}
 .delivery{
     box-shadow: 0 4px 12px 0;
     text-align: center;
@@ -69,6 +88,15 @@ li a{
     height: 300px;
     margin-left: 60px;
 }
+.delivery h2{
+    color: brown;
+    font-weight: 549;
+    font-size: 1.5em;
+}
+.delivery p{
+    color: gray;
+    font-size: 17px;
+}
 .meals{
     box-shadow: 0 4px 12px 0;
     text-align: center;
@@ -77,4 +105,32 @@ li a{
     float: right;
     width: 380px;
     height: 280px;
+}
+.meals h2{
+    color: brown;
+    font-weight: 549;
+    font-size: 1.5em;
+}
+.meals p{
+    color: gray;
+    font-size: 17px;
+}
+.our-menu{
+    text-align: center;
+    padding-top: 10px;
+}
+.our{
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+}
+.menu{
+    color: orange;
+    font-weight: 700;
+    font-size: 40px;
+}
+hr{
+    border: 6px solid chocolate;
+    margin: 0 820px;
+    
 }
