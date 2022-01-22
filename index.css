@@ -7,12 +7,16 @@
 position: absolute;
 right: 0;
 width: 50%;
-height: 100vh;
+height: 100%;
 clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
 background-color: #F6B400;right: 0;
 }
 .logo{
     height: 100;
+}
+.palace-logo{
+    display: flex;
+    justify-content: space-around;
 }
 .burger-logo{
     position: relative;
@@ -34,6 +38,7 @@ li a{
     font-size: 20px;
     padding: 15px 40px;
     text-decoration: none;
+}
 .links li{
     float: right;
     list-style: none;
@@ -152,6 +157,6 @@ li a:hover{
 }
 hr{
     border: 6px solid chocolate;
-    margin: 0 820px;
+    margin: 0 870px;
     
 }
