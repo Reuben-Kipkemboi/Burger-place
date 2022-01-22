@@ -12,3 +12,8 @@ body{
 .burgers{
     background-color: #E1EBE6;
 }
+button{
+    background-color: orange;
+    color: white;
+    border-radius: 50px;
+}
