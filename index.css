@@ -191,6 +191,11 @@ hr{
     float: left;
     margin-left: 100px; 
 }
+.price{
+        font-size: 20px;
+        padding-top: 40px;
+        margin-left: -300px;
+}
 .checks{
     background-color: #E1EBE6;
     margin-top: 100px;
@@ -199,7 +204,6 @@ hr{
     margin-right: 35%;
     margin-left: 5px;
     width: 100%;
-    padding: 100px 500px 100px 0;
 }.checks h2{
     font-weight: 1500;
     padding-left: 500px;
@@ -264,4 +268,15 @@ h6{
 }
 .murithi{
     float: right;
+}
+.bell{
+    color: #F6B400;
+    font-size: 100px;
+}
+.fast{
+    color: #F6B400;
+    font-size: 100px;
+}
+.circle{
+    color: #F6B400;
 }
