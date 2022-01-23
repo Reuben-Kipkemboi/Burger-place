@@ -230,11 +230,6 @@ hr{
     width: 350px;
     position: absolute;
 }
-.mobile{
-    height: 8
-    padding-left: 70px;
-    padding-top: 50px;
-}
 .mobile img{
     padding-top: 100px;
     margin-left: 100px;
@@ -317,9 +312,7 @@ h6{
     margin-right: 45px;
     border-style: none;
 } 
-.menus{
-    background-color: white;
-}
-.yellow , .mobile, .apps {
+.play{
     background-color: #F6B400;
+    padding-left: -100px;
 }
