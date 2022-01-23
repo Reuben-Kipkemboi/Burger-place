@@ -11,15 +11,17 @@ height: 100%;
 clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
 background-color: #F6B400;right: 0;
 }
-.logo{
-    height: 100;
-}
 .palace-logo{
     display: flex;
     justify-content: space-around;
 }
 .burger-logo{
     position: relative;
+}
+.burger-logo h4{
+    font-size: 45px;}
+.part-2{
+    color: #F6B400;
 }
 header{
     display: flex;
@@ -36,7 +38,7 @@ li a{
     color: black;
     font-weight: 700;
     font-size: 20px;
-    padding: 15px 40px;
+    padding: 15px 107px;
     text-decoration: none;
 }
 .links li{
@@ -46,26 +48,29 @@ li a{
     font-size: 21px;
     font-weight: bold;
 }
-li a:hover{
-    cursor: hand;
+.links li:hover{
+    border-bottom: 6px solid orange;
 }
 .burger-img{
-    padding: 20px;
+    height: 70px;
 }
 .rain{
     float: left;
-    font-weight: 650;
-    font-size: 40px;
-    margin-right: 6%;
-    margin-right: 7%;
-    padding-top: 200px;
+    font-weight: 690;
+    font-size: 30px;
+    margin-right: 5%;
+    margin-right: 4%;
+    padding-top: 50px;
 }
 .slogan{
+    float: left;
+    font-size: 13px;
+    margin-right: 4%;
+    margin-left: 3%;
+    padding: 80px;
+}
+.slogan p{
     margin-top: 50px;
-    font-style: calc();
-    font-size: 20px;
-    font-weight: 549;
-    color: gray;
 }
 .btn{
     margin-top: 900px;
@@ -76,13 +81,18 @@ li a:hover{
     border: none;
     border-radius: 20px 20px 0;
     float: left; 
-    position:
+}
+.slogan button{
+    margin-top: 50px;
 }
 .services{
     background-color: #E1EBE6;
     box-sizing: border-box;
-    padding: 50px;
-    height: 500px;
+    padding-top: 250px;
+    clear: both;
+    display: flex;
+    padding-bottom: 150px;
+    margin-top: 358px;
 }
 .quality{
     box-shadow: 0 4px 12px 0;
@@ -159,4 +169,49 @@ hr{
     border: 6px solid chocolate;
     margin: 0 870px;
     
+}
+.menu-1{
+    text-align: center;
+    box-shadow: 0 4px 12px 0;
+    margin-top: 50px;
+    width: 333px;
+    border-radius: 10px;
+    padding: 20px;
+    height: 400px;
+    display: ;
+}
+.section-3{
+    background-color: #E1EBE6;
+    padding: 150px;
+    margin-top: 80px;
+}
+.double-checker{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 35%;
+}
+#check-1{
+    position: absolute;
+    padding-top: 55px;
+    width: 350px;
+    left: 55%;
+
+}
+#check-2{
+    margin-bottom: -80%;
+    width: 350px;
+    left: 55%;
+    padding-top: 55px;
+}
+h3{
+    color: black;
+    font-weight: 700;
+}
+h4{
+    color: #F6B400;
+    font-weight: 700;
+
+}
+.double-checker p{
+    font-size: 500;
 }
