@@ -316,4 +316,10 @@ h6{
     margin-top: -45px;
     margin-right: 45px;
     border-style: none;
+} 
+.menus{
+    background-color: white;
+}
+.yellow , .mobile, .apps {
+    background-color: #F6B400;
 }
