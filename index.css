@@ -243,4 +243,25 @@ hr{
     display: flex;
     padding: 70px;
     background-color: #E1EBE6;
+    justify-content: space-between;
+    clear: both;
+}
+.footer-links{
+    list-style: none;
+    padding-bottom: 20px;
+}
+.copyright{
+    margin: 10px;
+}
+h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+.subscribe{
+    color: White;
+    background-color: #F6B400;
+    border-radius: 2px;
+}
+.murithi{
+    float: right;
 }
