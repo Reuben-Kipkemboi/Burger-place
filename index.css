@@ -230,6 +230,16 @@ hr{
     width: 350px;
     position: absolute;
 }
+.mobile{
+    height: 8
+    padding-left: 70px;
+    padding-top: 50px;
+}
+.mobile img{
+    padding-top: 100px;
+    margin-left: 100px;
+    margin-top: -100px;
+}
 .apps p{
     font-size: 50px;
     font-weight: 700;
@@ -238,12 +248,6 @@ hr{
 }
 .phone{
     float:right;
-}
-img{
-    float: right;
-}
-.yellow{
-    background-color: #F6B400;
 }
 .footer{
     display: flex;
