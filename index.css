@@ -102,6 +102,7 @@ li a{
     padding-bottom: 150px;
     margin-top: 358px;
     padding: 20px;
+    padding-left: 100px; 
 }
 .quality{
     box-shadow: 0 4px 12px 0;
@@ -219,6 +220,8 @@ hr{
 }
 .image{
     float: right;
+    margin-top: -20%;
+    margin-left:  -20%;
 
 }
 #check-1{
@@ -268,6 +271,7 @@ h6{
 }
 .murithi{
     float: right;
+    margin: -10px;
 }
 .bell{
     color: #F6B400;
@@ -279,4 +283,7 @@ h6{
 }
 .circle{
     color: #F6B400;
+}
+.icons{
+    text-align: center;
 }
