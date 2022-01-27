@@ -274,8 +274,9 @@ hr{
 }
 .footer .footer-links{
     list-style: none;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     margin-left: 380px;
+    margin-bottom: 10px;
 }
 .copyright{
     margin: 10px;
@@ -290,6 +291,8 @@ h6{
     border-radius: 5px;
     border-style: none;
     padding: 10px;
+    margin-top: 15px;
+    font-weight: bold;
 }
 .murithi{
     float: right;
