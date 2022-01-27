@@ -275,7 +275,7 @@ hr{
 .footer .footer-links{
     list-style: none;
     padding-bottom: 30px;
-    margin-left: 380px;
+    margin-left: 400px;
     margin-bottom: 10px;
 }
 .copyright{
@@ -296,7 +296,7 @@ h6{
 }
 .murithi{
     float: right;
-    margin: -10px;
+    padding-top:-300px;
 }
 .bell{
     color: #F6B400;
@@ -344,4 +344,7 @@ h6{
 .play{
     background-color: #F6B400;
     padding-left: -100px;
+}
+.last-section{
+    margin-top: -25px;
 }
