@@ -7,7 +7,7 @@
 position: absolute;
 right: 0;
 width: 50%;
-height: 100%;
+height: 105%;
 clip-path: polygon(11% 0, 100% 0%, 100% 100%, 0% 100%);
 background-color: #F6B400;
 }
@@ -62,7 +62,7 @@ li a{
     border-bottom: 6px solid orange;
 }
 .img-1{
-    height:450px;
+    height:500px;
     padding-left: 155px;
 }
 .rain{
@@ -101,6 +101,7 @@ li a{
     box-sizing: border-box;
     display: flex;
     padding-left: 50px; 
+    padding-top: 90px;
 
 }
 .quality{
@@ -126,10 +127,9 @@ li a{
     box-shadow: 0 4px 10px 0;
     text-align: center;
     border-radius: 10px;
-    float: left;
-    padding: 40px;
+    padding: 30px;
     width: 300px;
-    height: 300px;
+    height: 320px;
     margin-left: 30px;
     margin-right: 40px;
 }
@@ -177,19 +177,22 @@ li a{
 }
 hr{
     border: 6px solid chocolate;
-    margin: 0 870px;
+    margin: 0 580px;
     
+}
+.menus{
+    height: 500px;
 }
 .menu-1{
     text-align: center;
     box-shadow: 0 4px 12px 0;
     margin-top: 50px;
-    width: 450px;
+    width: 350px;
     border-radius: 30px;
     padding: 20px;
     height: 400px;
     float: left;
-    margin-left: 100px; 
+    margin-left: 20px;
 }
 .price{
         font-size: 20px;
@@ -203,8 +206,6 @@ hr{
     font-size: 50px;
     margin-right: 35%;
     margin-left: 5px;
-    width: 100%;
-    height: 500px;
 }.checks h2{
     font-weight: 1500;
     padding-left: 500px;
